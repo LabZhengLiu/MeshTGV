@@ -19,7 +19,7 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
     │     │── Kinect
     │     │── NonCAD
     │
-    │—— MeshTGV-1.0.4.exe     [//executable file to run our algorithm]
+    │—— MeshTGV-1.1.0.exe     [//executable file to run our algorithm]
     │—— README.md
    ```
 
@@ -56,7 +56,7 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 
 ### Run MeshTGV Algorithm:
 
-0. Double click the executable file : "MeshTGV-1.0.4.exe".
+0. Double click the executable file : "MeshTGV-1.1.0.exe".
 
 1. Load the Noisy Mesh:
    
