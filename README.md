@@ -11,7 +11,7 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 
 ### Download or Clone this repository, you will get :
    
-   ```
+   ```java
    MeshTGV
     │
     │── data                  [//comparison data used in our paper]
@@ -26,7 +26,7 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 ### About data :
    There are four files in each model's folder. For example, in Block's folder :
 
-   ```
+   ```c++
     data                  [//comparison data used in our paper]
       │—— CAD
       │    │—— Block
@@ -37,8 +37,8 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
       │    │
       │    │—— ...
       │
-      │── ...
-      │── ...
+      │── Kinect
+      │── NonCAD
 
    ```
    
@@ -58,19 +58,19 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 
 ### Run MeshTGV Algorithm:
 
-0. Double click the executable file.
+0. **Double click the executable file.**
 
-1. Load the Noisy Mesh:
+1. **Load the Noisy Mesh:**
    
    `Menu` &#8594; `Model` &#8594; `Load Mesh` &#8594; `Choose your noisy mesh`
 
-2. Open MeshTGV algorithm panel:
+2. **Open MeshTGV algorithm panel:**
 
    `Menu` &#8594; `Denoising` &#8594; `MeshTGV`
 
-3. Set parameters then Click Run button
+3. **Set parameters then Click `Run` button.**
 
-5. Output: 
+5. **Get output:**
    
    - *Visualization output* : showed in the mainwindow.
    - *Norm result output* : automaticlly saved in the same folder with the input Noisy Mesh.
