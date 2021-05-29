@@ -19,7 +19,7 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
     │     │── Kinect
     │     │── NonCAD
     │
-    │—— MeshTGV-1.1.0.exe     [//executable file to run our algorithm]
+    │—— MeshTGV-1.2.0.exe     [//executable file to run our algorithm]
     │—— README.md
    ```
 
@@ -30,10 +30,10 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
     data                  [//comparison data used in our paper]
       │—— CAD
       │    │—— Block
-      │    │    │—— _tgv_filtered_normals-aad=xxx.txt
-      │    │    │—— _tgv_result_mesh.obj
-      │    │    │—— block-smooth-GroundTruth.obj
-      │    │    │—— block-smooth-RandomDirectionNoise0.35.obj
+      │    │    │—— groundtruth.obj
+      │    │    │—— noisy.obj
+      │    │    │—— tgv_filtered_normals-aad=xxx.txt
+      │    │    │—— tgv_result_mesh.obj
       │    │
       │    │—— ...
       │
@@ -41,41 +41,38 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
       │── ...
 
    ```
+   
+   - `groundtruth.obj` : 
+   The GroundTruth data of model.
 
-   - `_tgv_filtered_normals-aad=xxx.txt` : 
+   - `noisy.obj` : 
+   The Noise data of model.
+
+   - `tgv_filtered_normals-aad=xxx.txt` : 
    Storing the result normals after MeshTGV Normal Filtering **before** Vertex Updating. 
-   "aad=xxx" in the filename means the Average Angle Deviation (θ value used in our paper) of the result normals is "xxx".
+   "aad=xxx" in the filename means the Average Angle Deviation(θ) of the result normals is "xxx".
 
-   - `_tgv_result_mesh.obj` : 
+   - `tgv_result_mesh.obj` : 
    The result mesh saved after MeshTGV Normal Filtering **and** Vertex Updating.
    
-   - `block-smooth-GroundTruth.obj` : 
-   The GroundTruth data of Block model.
-   - `block-smooth-RandomDirectionNoise0.35.obj` : 
-   The Noise data of Block model.
 
 ### Run MeshTGV Algorithm:
 
-0. Double click the executable file : "MeshTGV-1.1.0.exe".
+0. Double click the executable file.
 
 1. Load the Noisy Mesh:
    
-   Menu -> Model -> LoadMesh -> Choose your noisy mesh
+   Menu -> Model -> Load Mesh -> Choose your noisy mesh
 
-2. Load the GroundTruth Mesh:
-
-   Menu -> Model -> Load GroundTruth Mesh -> Choose your GroundTruth mesh
-
-3. Open MeshTGV algorithm panel:
+2. Open MeshTGV algorithm panel:
 
    Menu -> Denoising -> MeshTGV
 
-4. Set parameters then Click Run button
+3. Set parameters then Click Run button
 
 5. Output: 
    
    - *Visualization output* : showed in the mainwindow.
-   - *Quantitative Evaluation output* : showed in the console.
    - *Norm result output* : automaticlly saved in the same folder with the input Noisy Mesh.
    - *Mesh result output* : You need to save the Mesh result manually :
    Menu -> Model -> Save
