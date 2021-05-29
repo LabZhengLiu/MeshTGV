@@ -62,7 +62,7 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 
 1. Load the Noisy Mesh:
    
-   `Menu` $\rightarrow$ `Model` &rarr `Load Mesh` :arrow_right: `Choose your noisy mesh`
+   `Menu` ⮕ `Model` &#8594; `Load Mesh` :arrow_right: `Choose your noisy mesh`
 
 2. Open MeshTGV algorithm panel:
 
