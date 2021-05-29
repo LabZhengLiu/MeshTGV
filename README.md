@@ -49,7 +49,7 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
    The Noise data of model.
 
    - `tgv_filtered_normals-aad=xxx.txt` : 
-   Storing the result normals **after** MeshTGV Normal Filtering **but before** Vertex Updating. 
+   The result normals saved **after** MeshTGV Normal Filtering **but before** Vertex Updating. 
    "aad=xxx" in the filename means the Average Angle Deviation(θ) of the result normals is "xxx".
 
    - `tgv_result_mesh.obj` : 
