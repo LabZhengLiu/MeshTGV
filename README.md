@@ -11,7 +11,7 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 
 ### Download or Clone this repository, you will get :
    
-   ```java
+   ```c++
    MeshTGV
     │
     │── data                  [//comparison data used in our paper]
@@ -58,17 +58,17 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 
 ### Run MeshTGV Algorithm:
 
-0. **Double click the executable file.**
+1. **Double click the executable file.**
 
-1. **Load the Noisy Mesh:**
+2. **Load the Noisy Mesh:**
    
    `Menu` &#8594; `Model` &#8594; `Load Mesh` &#8594; `Choose your noisy mesh`
 
-2. **Open MeshTGV algorithm panel:**
+3. **Open MeshTGV algorithm panel:**
 
    `Menu` &#8594; `Denoising` &#8594; `MeshTGV`
 
-3. **Set parameters then Click `Run` button.**
+4. **Set parameters then Click `Run` button.**
 
 5. **Get output:**
    
