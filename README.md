@@ -62,7 +62,7 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 
 1. Load the Noisy Mesh:
    
-   `Menu -> Model -> Load Mesh -> Choose your noisy mesh`
+   `Menu :arrow_right: Model :arrow_right: Load Mesh :arrow_right: Choose your noisy mesh`
 
 2. Open MeshTGV algorithm panel:
 
@@ -80,4 +80,4 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 
 ### About Parameters:
 
-   Coming soon ...
+   :soon: Coming soon ...
