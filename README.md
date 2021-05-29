@@ -62,11 +62,11 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 
 1. Load the Noisy Mesh:
    
-   Menu -> Model -> Load Mesh -> Choose your noisy mesh
+   `Menu -> Model -> Load Mesh -> Choose your noisy mesh`
 
 2. Open MeshTGV algorithm panel:
 
-   Menu -> Denoising -> MeshTGV
+   `Menu -> Denoising -> MeshTGV`
 
 3. Set parameters then Click Run button
 
@@ -75,7 +75,7 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
    - *Visualization output* : showed in the mainwindow.
    - *Norm result output* : automaticlly saved in the same folder with the input Noisy Mesh.
    - *Mesh result output* : You need to save the Mesh result manually :
-   Menu -> Model -> Save
+   `Menu -> Model -> Save`
 
 
 ### About Parameters:
