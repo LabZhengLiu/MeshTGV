@@ -1,9 +1,6 @@
 # Mesh Total Generalized Variation for Denoising [[paper](https://ieeexplore.ieee.org/document/9453151)]
 
-<p align='center'>
-<figure><img src='images/figure1.png' width='900'/><figcaption>Figure 1. Comparison of denoising results of Block. The second row visualizes the corresponding
-error maps.</figcaption></figure>
-</p>
+<figure><img src='images/figure1.png' width='900'/></figure>
 
 <!-- ![figure 1. Comparison of denoising result](images/figure1.png) -->
 
@@ -13,7 +10,9 @@ error maps.</figcaption></figure>
 MeshTGV is an efficient numerical framework to discretize TGV over triangular meshes.
 Based on this discretization, a vectorial TGV regularization model is proposed to restore the face normal field. Then, we introduce an efficient and effective algorithm to solve the optimization problem.
 
-![figure 2. Illustration of the second-order directional derivatives](images/figure2.png)
+<figure><img src='images/figure2.png' width='900'/></figure>
+
+<!-- ![figure 2. Illustration of the second-order directional derivatives](images/figure2.png) -->
 
 ## :wrench: How to Use
 
