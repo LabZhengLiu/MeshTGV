@@ -90,3 +90,14 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 ### About Parameters:
 
    See Section ```6.1 Parameters Setting``` in our paper for more details.
+
+## :copyright: Citation
+```
+@article{Liu2021MeshTGV,
+  title={Mesh Total Generalized Variation for Denoising},
+  author={Liu, Zheng and Li, Yanlei and Wang, Weina and Liu, Ligang and Chen, Renjie},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2021},
+  doi={10.1109/TVCG.2021.3088118},
+}
+```
