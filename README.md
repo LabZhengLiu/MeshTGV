@@ -14,9 +14,9 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 
 <!-- ![figure 2. Illustration of the second-order directional derivatives](images/figure2.png) -->
 
-## :wrench: How to Use
+## :wrench: Usage
 
-### Download or Clone this repository, you will get :
+### Clone this repository, you will get :
    
    ```c++
    MeshTGV
