@@ -1,7 +1,7 @@
 # Mesh Total Generalized Variation for Denoising
  by [Zheng Liu](https://labzhengliu.github.io/), Yanlei Li, [Weina Wang](https://www.researchgate.net/profile/Weina-Wang-6), [Ligang Liu](http://staff.ustc.edu.cn/~lgliu/), and [Renjie Chen](http://staff.ustc.edu.cn/~renjiec/)(Corresponding author)
 
-![figure 1. Comparison of denoising result](images/figure1.png){:height="70%" width="70%"}
+![figure 1. Comparison of denoising result](images/figure1.png)
 
 ## :bulb: Introduction
 MeshTGV is an efficient numerical framework to discretize TGV over triangular meshes.
