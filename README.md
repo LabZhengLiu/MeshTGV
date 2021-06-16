@@ -18,7 +18,7 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 
 ## :wrench: Usage
 
-### Clone this repository, you will get :
+### clone this repository, you will get :
    
    ```c++
    MeshTGV
@@ -32,40 +32,7 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
     │—— README.md
    ```
 
-### About data :
-   There are four files in each model's folder. For example, in Block's folder :
-
-   ```c++
-    data                  [//comparison data used in our paper]
-      │—— CAD
-      │    │—— Block
-      │    │    │—— groundtruth.obj
-      │    │    │—— noisy.obj
-      │    │    │—— tgv_filtered_normals-aad=xxx.txt
-      │    │    │—— tgv_result_mesh.obj
-      │    │
-      │    │—— ...
-      │
-      │── Kinect
-      │── NonCAD
-
-   ```
-   
-   - `groundtruth.obj` : 
-   The GroundTruth data of model.
-
-   - `noisy.obj` : 
-   The Noise data of model.
-
-   - `tgv_filtered_normals-aad=xxx.txt` : 
-   The result normals saved **after** MeshTGV Normal Filtering **but before** Vertex Updating. 
-   "aad=xxx" in the filename means the Average Angle Deviation(θ) of the result normals is "xxx".
-
-   - `tgv_result_mesh.obj` : 
-   The result mesh saved **after** MeshTGV Normal Filtering **and** Vertex Updating.
-   
-
-### Run MeshTGV:
+### run MeshTGV:
 
 1. **Double click the executable file.**
 
@@ -86,12 +53,41 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
    - *Mesh result output* : You need to save the Mesh result manually :
    `Menu` &#8594; `Model` &#8594; `Save`
 
+### about data :
+   There are four files in each model's folder. For example, in Block's folder :
 
-### About Parameters:
+   ```c++
+    data                  [//comparison data used in our paper]
+      │—— CAD
+      │    │—— Block
+      │    │    │—— groundtruth.obj
+      │    │    │—— noisy.obj
+      │    │    │—— tgv_filtered_normals-aad=xxx.txt
+      │    │    │—— tgv_result_mesh.obj
+      │    │—— ...
+      │
+      │── Kinect
+      │── NonCAD
+   ```
+   
+   - `groundtruth.obj` : 
+   The GroundTruth data of model.
 
+   - `noisy.obj` : 
+   The Noise data of model.
+
+   - `tgv_filtered_normals-aad=xxx.txt` : 
+   The result normals saved **after** MeshTGV Normal Filtering **but before** Vertex Updating. 
+   "aad=xxx" in the filename means the Average Angle Deviation(θ) of the result normals is "xxx".
+
+   - `tgv_result_mesh.obj` : 
+   The result mesh saved **after** MeshTGV Normal Filtering **and** Vertex Updating.
+   
+### about Parameters:
    See Section ```6.1 Parameters Setting``` in our paper for more details.
 
 ## :link: Citation
+If you find this work useful please consider citing it:
 ```
 @article{Liu2021MeshTGV,
   title={Mesh Total Generalized Variation for Denoising},
