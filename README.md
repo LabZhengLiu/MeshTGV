@@ -32,31 +32,31 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
     │—— README.md
    ```
 
-### run the program
+### run the program :
 
 1. **double click the executable file.**
 
-2. **load a mesh file (.obj):**
+2. **load a mesh file (.obj) :**
    
    `Menu` &#8594; `Model` &#8594; `Load Mesh` &#8594; `Choose your noisy mesh`
 
-3. **open the MeshTGV algorithm panel:**
+3. **open the MeshTGV algorithm panel :**
 
    `Menu` &#8594; `Denoising` &#8594; `MeshTGV`
 
 4. **set parameters then click the `Run` button.**
 
-5. **get output:**
+5. **get output :**
 
    - *Visualization output* : showed in the mainwindow.
    - *Norm result output* : automaticlly saved in the same folder with the input Noisy Mesh.
    - *Mesh result output* : You need to save the Mesh result manually :
    `Menu` &#8594; `Model` &#8594; `Save`
    
-### parameters setting:
+### parameters setting :
    Please see Section ```6.1 Parameters Setting``` in our [paper](https://ieeexplore.ieee.org/document/9453151) for more details of parameters.
 
-## :moyai: About data :
+## :moyai: About data
    There are four files in each model's folder. For example, in Block's folder :
 
    ```c++
@@ -88,7 +88,7 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 
 
 ## :link: Citation
-If you find this work helpful please consider citing it:
+If you find this work helpful please consider citing it :
 ```
 @article{Liu2021MeshTGV,
   title={Mesh Total Generalized Variation for Denoising},
