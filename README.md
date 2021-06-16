@@ -7,6 +7,7 @@
 MeshTGV is an efficient numerical framework to discretize TGV over triangular meshes.
 Based on this discretization, a vectorial TGV regularization model is proposed to restore the face normal field. Then, we introduce an efficient and effective algorithm to solve the optimization problem.
 
+![figure 2. Illustration of the second-order directional derivatives](images/figure2.png)
 
 ## :wrench: How to Use
 
