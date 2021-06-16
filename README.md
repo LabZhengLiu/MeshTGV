@@ -32,7 +32,7 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
     │—— README.md
    ```
 
-### run MeshTGV:
+### run the program
 
 1. **double click the executable file.**
 
@@ -52,8 +52,11 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
    - *Norm result output* : automaticlly saved in the same folder with the input Noisy Mesh.
    - *Mesh result output* : You need to save the Mesh result manually :
    `Menu` &#8594; `Model` &#8594; `Save`
+   
+### parameters setting:
+   Please see Section ```6.1 Parameters Setting``` in our [paper](https://ieeexplore.ieee.org/document/9453151) for more details of parameters.
 
-### about data :
+## :moyai: About data :
    There are four files in each model's folder. For example, in Block's folder :
 
    ```c++
@@ -82,9 +85,7 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 
    - `tgv_result_mesh.obj` : 
    The result mesh saved **after** MeshTGV Normal Filtering **and** Vertex Updating.
-   
-### about parameters:
-   Please see Section ```6.1 Parameters Setting``` in our [paper](https://ieeexplore.ieee.org/document/9453151) for more details of parameters.
+
 
 ## :link: Citation
 If you find this work helpful please consider citing it:
