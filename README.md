@@ -1,7 +1,13 @@
 # Mesh Total Generalized Variation for Denoising [[paper](https://ieeexplore.ieee.org/document/9453151)]
- by [Zheng Liu](https://labzhengliu.github.io/), Yanlei Li, [Weina Wang](https://www.researchgate.net/profile/Weina-Wang-6), [Ligang Liu](http://staff.ustc.edu.cn/~lgliu/), and [Renjie Chen](http://staff.ustc.edu.cn/~renjiec/)(Corresponding author)
 
-![figure 1. Comparison of denoising result](images/figure1.png)
+<p align='center'>
+<figure><img src='images/figure1.png' width='900'/><figcaption>Figure 1. Comparison of denoising results of Block. The second row visualizes the corresponding
+error maps.</figcaption></figure>
+</p>
+
+<!-- ![figure 1. Comparison of denoising result](images/figure1.png) -->
+
+ by [Zheng Liu](https://labzhengliu.github.io/), Yanlei Li, [Weina Wang](https://www.researchgate.net/profile/Weina-Wang-6), [Ligang Liu](http://staff.ustc.edu.cn/~lgliu/), and [Renjie Chen](http://staff.ustc.edu.cn/~renjiec/)(Corresponding author)
 
 ## :bulb: Introduction
 MeshTGV is an efficient numerical framework to discretize TGV over triangular meshes.
