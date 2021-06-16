@@ -1,4 +1,4 @@
-# Mesh Total Generalized Variation for Denoising
+# Mesh Total Generalized Variation for Denoising [[paper](https://ieeexplore.ieee.org/document/9453151)]
  by [Zheng Liu](https://labzhengliu.github.io/), Yanlei Li, [Weina Wang](https://www.researchgate.net/profile/Weina-Wang-6), [Ligang Liu](http://staff.ustc.edu.cn/~lgliu/), and [Renjie Chen](http://staff.ustc.edu.cn/~renjiec/)(Corresponding author)
 
 ![figure 1. Comparison of denoising result](images/figure1.png)
@@ -82,4 +82,4 @@ Based on this discretization, a vectorial TGV regularization model is proposed t
 
 ### About Parameters:
 
-   :soon: Coming soon ...
+   See Section ```6.1 Parameters Setting``` in our paper for more details.
