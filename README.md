@@ -1,6 +1,6 @@
 # Mesh Total Generalized Variation for Denoising [[paper](https://ieeexplore.ieee.org/document/9453151)]
 
-:zap:`Status Update: [2021/06/08] This paper has been accepted by the IEEE Transactions on Visualization and Computer Graphics.`
+:zap:`Status Update: [2021/06/08] This paper has been accepted by the IEEE Transactions on Visualization and Computer Graphics (TVCG).`
 
 <p align='center'>
 <img src='images/figure1.png' width='850'/>
